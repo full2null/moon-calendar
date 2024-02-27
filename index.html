@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>달 달력</title>
+  <link rel="shortcut icon" href="./public/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <h1>달 달력</h1>
+  </header>
+
+  <main>
+    <table cellspacing="5">
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <button class="open-modal" id="months">1<span class="lunar">3.1</span></button>
+          </td>
+          <td>
+            <button class="open-modal">2</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="open-modal">3</button>
+          </td>
+          <td>
+            <button class="open-modal">4</button>
+          </td>
+          <td>
+            <button class="open-modal" id="crescent">5<span class="lunar">3.5</span></button>
+          </td>
+          <td>
+            <button class="open-modal">6</button>
+          </td>
+          <td>
+            <button class="open-modal">7</button>
+          </td>
+          <td>
+            <button class="open-modal">8</button>
+          </td>
+          <td>
+            <button class="open-modal">9</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="open-modal" id="young-moon">10<span class="lunar">3.10</span></button>
+          </td>
+          <td>
+            <button class="open-modal">11</button>
+          </td>
+          <td>
+            <button class="open-modal">12</button>
+          </td>
+          <td>
+            <button class="open-modal">13</button>
+          </td>
+          <td>
+            <button class="open-modal">14</button>
+          </td>
+          <td>
+            <button class="open-modal">15</button>
+          </td>
+          <td>
+            <button class="open-modal">16</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="open-modal" id="full-moon">17<span class="lunar">3.17</span></button>
+          </td>
+          <td>
+            <button class="open-modal">18</button>
+          </td>
+          <td>
+            <button class="open-modal">19</button>
+          </td>
+          <td>
+            <button class="open-modal">20</button>
+          </td>
+          <td>
+            <button class="open-modal">21</button>
+          </td>
+          <td>
+            <button class="open-modal">22</button>
+          </td>
+          <td>
+            <button class="open-modal">23</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="open-modal" id="old-moon">24<span class="lunar">3.24</span></button>
+          </td>
+          <td>
+            <button class="open-modal">25</button>
+          </td>
+          <td>
+            <button class="open-modal">26</button>
+          </td>
+          <td>
+            <button class="open-modal">27</button>
+          </td>
+          <td>
+            <button class="open-modal" id="dark-moon">28<span class="lunar">3.28</span></button>
+          </td>
+          <td>
+            <button class="open-modal">29</button>
+          </td>
+          <td>
+            <button class="open-modal">30</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="modal-wrapper">
+      <div id="modal">
+        <div id="title">
+          <h2></h2>
+        </div>
+
+        <img id="image">
+
+        <div class="close-modal">
+          <button id="close-modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>

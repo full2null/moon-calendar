@@ -1,0 +1,160 @@
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
+
+/* mobile */
+body {
+  background-color: #2F2D30;
+
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+  width: 90vw;
+
+  font-family: "Spoqa Han Sans Neo", sans-serif;
+}
+
+h1 {
+  color: #FABE0E;
+
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+table {
+  background-color: #FABE0E;
+
+  text-align: center;
+
+  width: 100%;
+
+  border-radius: 0.75rem;
+}
+
+td {
+  padding: 0;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+
+  height: 10.5vw;
+  width: 10.5vw;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 4px 6px -1px #0000001A, 0 2px 4px -1px #0000000F;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.open-modal {
+  font-size: 1.25rem;
+}
+
+.close-modal {
+  margin-top: 1.25rem;
+
+  text-align: center;
+}
+
+.lunar {
+  margin: 0;
+  padding: 0;
+
+  font-size: 0.75rem;
+  font-weight: 400;
+
+  display: block;
+}
+
+#modal-wrapper {
+  background: #00000080;
+
+  display: none;
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  position: fixed;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#modal {
+  background: #2F2D30;
+
+  padding: 20px;
+
+  border-radius: 1rem;
+}
+
+#title {
+  color: #FABE0E;
+
+  margin-bottom: 1.25rem;
+
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+
+  display: none;
+}
+
+#close-modal {
+  color: #FABE0E;
+
+  height: 4rem;
+  width: 4rem;
+
+  font-weight: 600;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .open-modal {
+    font-size: 2rem;
+  }
+
+  .lunar {
+    font-size: 1.25rem;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .open-modal {
+    font-size: 2.5rem;
+  }
+
+  .lunar {
+    font-size: 1.5rem;
+  }
+}
